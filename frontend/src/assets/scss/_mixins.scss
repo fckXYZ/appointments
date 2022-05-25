@@ -1,0 +1,38 @@
+$mobile-width: 900px;
+
+//screen
+@mixin mobile {
+  @media screen and (max-width: $mobile-width) {
+    @content;
+  }
+}
+
+//text
+@mixin main-text {
+  font-family: $main-font;
+  color: $black;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+@mixin inactive-text {
+  font-family: $main-font;
+  color: $pale-gray;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+@mixin nav-text {
+  font-family: $main-font;
+  color: $pale-gray;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+@mixin header-text {
+  font-family: $main-font;
+  color: $gray;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}

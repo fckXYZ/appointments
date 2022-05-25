@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  padding: 24px 0;
+  border-bottom: 1px solid $gray;
+  box-shadow: $box-shadow;
+
+  .menu {
+    width: 50%;
+
+    .nav-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+
+      .nav-item {
+        list-style: none;
+        margin: 0 14px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+
+        a {
+          @include nav-text;
+          transition: all linear .1s;
+        }
+
+        &:hover {
+          a {
+            color: $black;
+            transition: all linear .1s;
+          }
+        }
+
+        &.active {
+          a {
+            color: $black;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  &.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    box-sizing: border-box;
+  }
+}

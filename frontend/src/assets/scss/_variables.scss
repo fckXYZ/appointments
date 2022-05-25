@@ -1,0 +1,24 @@
+//colors
+$purple: #b2baf9;
+$blue: #8ee3fd;
+$pale-green: #d2e9ac;
+$dark-green: #a7e7ce;
+$pink: #f8b1d0;
+$dark-pink: #e3b3ea;
+$pale-orange: #f8dBd2;
+$gray: #afafaf;
+$pale-gray: #d0d0d0;
+$black: #2e2e2e !default;
+
+//fonts
+$main-font: 'Roboto', sans-serif;
+
+//design
+$box-shadow: 0 2px 6px rgba(0, 0, 0, .15) !default;
+
+html {
+  --font-main-color: $black;
+  --font-inactive-color: $pale-gray;
+  --border-color: $gray;
+}
+

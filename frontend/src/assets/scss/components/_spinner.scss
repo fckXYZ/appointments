@@ -1,0 +1,15 @@
+@keyframes blink {
+  0%   {background-color: $dark-green}
+  25%  {background-color: $pale-green}
+  50%  {background-color: $dark-pink}
+  75%  {background-color: $pale-orange}
+  100% {background-color: $pink}
+}
+
+.spinner {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  animation: blink 2s infinite;
+}

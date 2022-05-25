@@ -1,0 +1,11 @@
+.title {
+  @include main-text;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.main-text {
+  @include main-text;
+  font-size: 12px;
+  text-align: left;
+}
