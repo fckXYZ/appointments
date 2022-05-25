@@ -99,3 +99,12 @@ GET: http://localhost:5010/events
 ```
 GET: http://localhost:5010/resources
 ```
+
+## Frontend:
+
+Запуск(3001 port):
+```
+cd ./frontend
+npm/yarn install
+npm/yarn start
+```
